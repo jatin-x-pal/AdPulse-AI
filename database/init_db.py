@@ -4,6 +4,7 @@ from sqlalchemy import text
 from database.db import engine, Base
 import database.models  # ensure models are registered with Base
 from generate_sample_data import generate_sample_data
+import streamlit as st
 
 def populate_sample_data():
     """Generates the CSVs locally and ingests them into the SQLite database dynamically."""
@@ -20,6 +21,7 @@ def populate_sample_data():
         return True
     return False
 
+@st.cache_resource
 def initialize_database():
     """Creates the schemas and seeds the database if no records exist."""
     # 1. Ensure all schemas defined in models.py are created (no-op if tables already exist)

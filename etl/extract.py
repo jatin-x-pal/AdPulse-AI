@@ -1,16 +1,20 @@
 import pandas as pd
 from database.db import engine
+from database.init_db import initialize_database
 
 def extract_campaigns() -> pd.DataFrame:
     """Extract campaign data from SQLite."""
+    initialize_database()
     return pd.read_sql("SELECT * FROM campaigns", engine)
 
 def extract_audiences() -> pd.DataFrame:
     """Extract audience data from SQLite."""
+    initialize_database()
     return pd.read_sql("SELECT * FROM audiences", engine)
 
 def get_filtered_data(start_date=None, end_date=None, campaigns=None, platforms=None, locations=None):
     """Retrieve filtered campaigns and audiences."""
+    initialize_database()
     query_camp = "SELECT * FROM campaigns WHERE 1=1"
     if start_date:
         query_camp += f" AND Date >= '{start_date}'"

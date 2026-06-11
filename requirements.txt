@@ -8,5 +8,4 @@ openai
 plotly
 python-dotenv
 pytest
-markdown
-xhtml2pdf
+reportlab

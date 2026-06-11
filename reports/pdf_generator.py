@@ -1,33 +1,77 @@
-import markdown
-from xhtml2pdf import pisa
+import re
 from io import BytesIO
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.colors import HexColor
 
 def generate_pdf_from_md(md_string: str) -> bytes:
-    """Uses xhtml2pdf to render markdown files into raw PDF byte traces."""
-    html_body = markdown.markdown(md_string, extensions=["tables"])
-    html_content = f"""
-    <html>
-    <head>
-    <style>
-        body {{ font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #333; }}
-        h1 {{ color: #2c3e50; font-size: 16px; margin-bottom: 5px; }}
-        h2 {{ color: #34495e; font-size: 14px; border-bottom: 1px solid #ddd; padding-bottom: 3px; margin-top: 15px; }}
-        h3 {{ color: #555; font-size: 12px; margin-top: 10px; }}
-        p {{ margin-bottom: 10px; line-height: 1.4; }}
-        ul {{ margin-bottom: 10px; }}
-        li {{ margin-bottom: 4px; }}
-    </style>
-    </head>
-    <body>
-    {html_body}
-    </body>
-    </html>
-    """
+    """Generates PDF directly using reportlab.platypus to ensure Streamlit Cloud native compliance."""
+    buffer = BytesIO()
+    doc = SimpleDocTemplate(buffer, pagesize=letter,
+                            rightMargin=40, leftMargin=40,
+                            topMargin=40, bottomMargin=40)
     
-    result = BytesIO()
-    pisa_status = pisa.CreatePDF(html_content, dest=result)
+    styles = getSampleStyleSheet()
     
-    if pisa_status.err:
-        raise Exception("Failed to compile PDF from Markdown via xhtml2pdf")
-        
-    return result.getvalue()
+    title_style = ParagraphStyle(
+        'MainTitle',
+        parent=styles['Heading1'],
+        fontSize=18,
+        textColor=HexColor('#2c3e50'),
+        spaceAfter=15
+    )
+    
+    h2_style = ParagraphStyle(
+        'SectionHeader',
+        parent=styles['Heading2'],
+        fontSize=14,
+        textColor=HexColor('#34495e'),
+        spaceBefore=15,
+        spaceAfter=10
+    )
+    
+    body_style = ParagraphStyle(
+        'NormalBody',
+        parent=styles['Normal'],
+        fontSize=10,
+        textColor=HexColor('#333333'),
+        spaceAfter=6,
+        leading=14
+    )
+    
+    story = []
+    
+    def process_text(text):
+        # Translate MD styles into reportlab supported XML tags
+        text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+        text = re.sub(r'_(.*?)_', r'<i>\1</i>', text)
+        return text
+    
+    lines = md_string.split('\n')
+    
+    for line in lines:
+        line = line.strip()
+        if line.startswith('---') or line == '':
+            if line == '':
+                story.append(Spacer(1, 6))
+            continue
+            
+        if line.startswith('# '):
+            text = process_text(line[2:])
+            story.append(Paragraph(text, title_style))
+        elif line.startswith('## '):
+            text = process_text(line[3:])
+            story.append(Paragraph(text, h2_style))
+        elif line.startswith('### '):
+            text = process_text(line[4:])
+            story.append(Paragraph(text, styles['Heading3']))
+        elif line.startswith('- ') or line.startswith('* '):
+            text = process_text(line[2:])
+            story.append(Paragraph(f"&bull; {text}", body_style))
+        else:
+            text = process_text(line)
+            story.append(Paragraph(text, body_style))
+            
+    doc.build(story)
+    return buffer.getvalue()

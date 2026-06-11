@@ -9,10 +9,10 @@ def build_analysis_prompt(metrics: dict, audiences: list, forecast: list) -> str
     
     Structure your response strictly using these Markdown headers:
     ## Executive Summary
-    ## Campaign Performance Analysis
-    ## Audience Analysis
+    ## Campaign Analysis
+    ## Audience Insights
     ## Forecast Analysis
-    ## Optimization Recommendations
+    ## Recommendations
     
     Avoid inserting any other H2s (##) to maintain template integrity. Use bullet points and paragraphs effectively.
     

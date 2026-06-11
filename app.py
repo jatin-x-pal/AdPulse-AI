@@ -1,10 +1,13 @@
 import streamlit as st
-
+from database.init_db import initialize_database
 st.set_page_config(
     page_title="AdPulse AI",
     page_icon="📈",
     layout="wide"
 )
+
+with st.spinner("Initializing system configuration & database..."):
+    initialize_database()
 
 st.title("AdPulse AI: Marketing Diagnostics & Analytics")
 

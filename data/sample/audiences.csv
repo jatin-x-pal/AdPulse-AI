@@ -1,0 +1,760 @@
+Audience_ID,Age_Group,Gender,Device,Location,Campaign_ID
+1,25-34,Unknown,Mobile,London,1
+2,18-24,Male,Desktop,London,1
+3,35-44,Unknown,Mobile,Delhi,1
+4,45-54,Male,Mobile,Tokyo,1
+5,18-24,Unknown,Desktop,London,1
+6,18-24,Female,Tablet,New York,1
+7,35-44,Female,Desktop,Tokyo,1
+8,45-54,Male,Tablet,London,1
+9,55+,Female,Desktop,London,2
+10,55+,Unknown,Mobile,Sydney,2
+11,35-44,Male,Tablet,Chicago,2
+12,55+,Unknown,Mobile,Tokyo,2
+13,35-44,Unknown,Mobile,Houston,2
+14,55+,Male,Desktop,Houston,2
+15,25-34,Unknown,Tablet,Berlin,2
+16,35-44,Unknown,Tablet,London,2
+17,45-54,Unknown,Mobile,London,2
+18,55+,Unknown,Tablet,Berlin,3
+19,35-44,Female,Tablet,Berlin,3
+20,35-44,Female,Mobile,Tokyo,3
+21,45-54,Unknown,Mobile,London,3
+22,55+,Female,Tablet,Tokyo,3
+23,45-54,Female,Mobile,Houston,3
+24,18-24,Male,Mobile,London,3
+25,18-24,Female,Tablet,London,3
+26,45-54,Female,Desktop,Miami,3
+27,18-24,Unknown,Mobile,Delhi,4
+28,45-54,Female,Desktop,Tokyo,4
+29,25-34,Unknown,Mobile,Houston,4
+30,45-54,Female,Tablet,Chicago,4
+31,18-24,Male,Tablet,Houston,4
+32,18-24,Male,Desktop,New York,4
+33,18-24,Unknown,Desktop,Houston,4
+34,18-24,Unknown,Tablet,Miami,4
+35,45-54,Female,Desktop,Berlin,4
+36,45-54,Female,Mobile,Los Angeles,4
+37,45-54,Male,Mobile,Houston,5
+38,35-44,Male,Mobile,Los Angeles,5
+39,25-34,Female,Tablet,Chicago,5
+40,35-44,Male,Desktop,Chicago,5
+41,55+,Unknown,Mobile,Tokyo,5
+42,55+,Unknown,Mobile,Sydney,5
+43,45-54,Unknown,Mobile,Houston,5
+44,18-24,Male,Desktop,Sydney,5
+45,18-24,Male,Mobile,Tokyo,5
+46,18-24,Male,Mobile,New York,6
+47,45-54,Unknown,Mobile,Miami,6
+48,45-54,Male,Mobile,New York,6
+49,55+,Female,Desktop,Sydney,6
+50,45-54,Unknown,Tablet,Berlin,6
+51,55+,Unknown,Mobile,Los Angeles,6
+52,45-54,Male,Tablet,New York,6
+53,45-54,Female,Mobile,Berlin,6
+54,18-24,Male,Mobile,Sydney,6
+55,55+,Unknown,Desktop,Los Angeles,7
+56,35-44,Male,Tablet,New York,7
+57,45-54,Male,Desktop,Berlin,7
+58,18-24,Female,Desktop,New York,7
+59,25-34,Unknown,Tablet,Berlin,7
+60,25-34,Female,Desktop,Houston,7
+61,25-34,Male,Tablet,Chicago,8
+62,45-54,Female,Tablet,Los Angeles,8
+63,35-44,Female,Mobile,New York,8
+64,35-44,Female,Desktop,Berlin,8
+65,18-24,Male,Tablet,New York,8
+66,25-34,Male,Mobile,Chicago,9
+67,18-24,Female,Desktop,London,9
+68,45-54,Female,Tablet,Chicago,9
+69,45-54,Unknown,Tablet,Los Angeles,9
+70,35-44,Unknown,Mobile,Miami,9
+71,55+,Female,Mobile,Tokyo,9
+72,45-54,Male,Mobile,Berlin,9
+73,18-24,Female,Tablet,Berlin,9
+74,55+,Male,Mobile,Houston,9
+75,45-54,Male,Mobile,Sydney,9
+76,35-44,Female,Mobile,Berlin,10
+77,35-44,Male,Mobile,Berlin,10
+78,45-54,Unknown,Tablet,Berlin,10
+79,25-34,Female,Desktop,London,10
+80,25-34,Female,Tablet,Delhi,10
+81,55+,Male,Desktop,Delhi,11
+82,45-54,Male,Desktop,Delhi,11
+83,18-24,Unknown,Tablet,New York,11
+84,35-44,Female,Mobile,Berlin,11
+85,18-24,Male,Desktop,Berlin,11
+86,35-44,Female,Mobile,London,11
+87,35-44,Unknown,Desktop,Delhi,11
+88,55+,Male,Tablet,Sydney,11
+89,25-34,Unknown,Mobile,Sydney,11
+90,25-34,Unknown,Desktop,Tokyo,11
+91,25-34,Unknown,Mobile,Tokyo,12
+92,18-24,Unknown,Mobile,Los Angeles,12
+93,55+,Unknown,Tablet,Chicago,12
+94,55+,Unknown,Desktop,Chicago,12
+95,55+,Female,Mobile,Chicago,12
+96,55+,Male,Desktop,Chicago,12
+97,18-24,Male,Mobile,Berlin,13
+98,45-54,Male,Mobile,Houston,13
+99,55+,Female,Desktop,Houston,13
+100,25-34,Female,Mobile,Tokyo,13
+101,45-54,Unknown,Mobile,Los Angeles,13
+102,45-54,Male,Mobile,Los Angeles,13
+103,35-44,Male,Mobile,Tokyo,13
+104,55+,Female,Desktop,Sydney,14
+105,45-54,Male,Desktop,Delhi,14
+106,25-34,Male,Mobile,Delhi,14
+107,25-34,Female,Tablet,London,14
+108,45-54,Female,Desktop,Delhi,14
+109,25-34,Male,Tablet,Sydney,15
+110,45-54,Unknown,Tablet,London,15
+111,35-44,Unknown,Mobile,Sydney,15
+112,45-54,Unknown,Mobile,Los Angeles,15
+113,45-54,Male,Tablet,Sydney,15
+114,25-34,Unknown,Desktop,Houston,15
+115,35-44,Unknown,Tablet,London,15
+116,55+,Female,Desktop,Miami,16
+117,25-34,Male,Tablet,Berlin,16
+118,25-34,Unknown,Tablet,New York,16
+119,45-54,Male,Mobile,Houston,16
+120,18-24,Male,Tablet,New York,16
+121,35-44,Female,Tablet,New York,16
+122,35-44,Unknown,Mobile,Tokyo,16
+123,35-44,Female,Mobile,Tokyo,17
+124,35-44,Female,Mobile,London,17
+125,35-44,Female,Desktop,Delhi,17
+126,45-54,Female,Mobile,London,17
+127,25-34,Female,Tablet,Chicago,17
+128,45-54,Male,Desktop,Miami,17
+129,18-24,Male,Mobile,Los Angeles,17
+130,45-54,Male,Mobile,Chicago,17
+131,55+,Male,Mobile,Miami,17
+132,45-54,Unknown,Desktop,Los Angeles,18
+133,35-44,Unknown,Mobile,Houston,18
+134,55+,Unknown,Desktop,Delhi,18
+135,35-44,Unknown,Mobile,Delhi,18
+136,45-54,Male,Mobile,Los Angeles,18
+137,25-34,Unknown,Mobile,New York,18
+138,35-44,Unknown,Desktop,Miami,18
+139,45-54,Male,Mobile,London,18
+140,25-34,Unknown,Tablet,Miami,19
+141,18-24,Male,Mobile,Miami,19
+142,55+,Male,Tablet,Chicago,19
+143,45-54,Female,Mobile,Los Angeles,19
+144,18-24,Female,Tablet,Sydney,19
+145,25-34,Female,Mobile,Miami,19
+146,45-54,Male,Desktop,Delhi,19
+147,35-44,Unknown,Tablet,New York,19
+148,55+,Unknown,Mobile,Berlin,19
+149,18-24,Male,Desktop,Los Angeles,20
+150,18-24,Unknown,Tablet,Berlin,20
+151,55+,Male,Mobile,Delhi,20
+152,18-24,Unknown,Mobile,New York,20
+153,18-24,Male,Desktop,New York,20
+154,35-44,Female,Desktop,Chicago,20
+155,18-24,Female,Tablet,Los Angeles,21
+156,25-34,Male,Mobile,Sydney,21
+157,35-44,Unknown,Tablet,Tokyo,21
+158,55+,Unknown,Desktop,Sydney,21
+159,25-34,Unknown,Desktop,Sydney,21
+160,55+,Female,Mobile,Delhi,21
+161,55+,Male,Desktop,Los Angeles,21
+162,55+,Male,Mobile,Chicago,21
+163,45-54,Unknown,Mobile,Los Angeles,22
+164,55+,Female,Mobile,Tokyo,22
+165,25-34,Female,Desktop,Los Angeles,22
+166,18-24,Male,Mobile,Los Angeles,22
+167,55+,Unknown,Desktop,Miami,22
+168,18-24,Female,Tablet,Houston,22
+169,35-44,Male,Desktop,Delhi,23
+170,25-34,Female,Desktop,Tokyo,23
+171,18-24,Unknown,Mobile,Los Angeles,23
+172,35-44,Unknown,Tablet,Los Angeles,23
+173,45-54,Unknown,Desktop,Tokyo,23
+174,18-24,Male,Tablet,Sydney,23
+175,45-54,Female,Desktop,Miami,23
+176,18-24,Female,Tablet,Delhi,23
+177,45-54,Unknown,Tablet,Los Angeles,23
+178,55+,Female,Desktop,Delhi,23
+179,25-34,Female,Desktop,Los Angeles,24
+180,25-34,Unknown,Tablet,Chicago,24
+181,18-24,Unknown,Tablet,Tokyo,24
+182,35-44,Male,Desktop,Tokyo,24
+183,18-24,Unknown,Mobile,Tokyo,24
+184,55+,Unknown,Mobile,Houston,24
+185,55+,Unknown,Tablet,Miami,25
+186,18-24,Female,Desktop,Houston,25
+187,45-54,Unknown,Desktop,London,25
+188,18-24,Female,Desktop,Miami,25
+189,55+,Unknown,Mobile,Berlin,25
+190,55+,Male,Desktop,Chicago,25
+191,45-54,Male,Tablet,New York,25
+192,25-34,Male,Tablet,Chicago,25
+193,25-34,Female,Mobile,Houston,26
+194,55+,Unknown,Tablet,Sydney,26
+195,55+,Female,Desktop,London,26
+196,18-24,Male,Desktop,Houston,26
+197,25-34,Female,Tablet,Miami,26
+198,55+,Male,Tablet,Los Angeles,26
+199,35-44,Female,Desktop,Sydney,26
+200,55+,Female,Desktop,Los Angeles,26
+201,35-44,Male,Mobile,Sydney,26
+202,25-34,Female,Tablet,Sydney,27
+203,45-54,Female,Tablet,New York,27
+204,18-24,Female,Mobile,Los Angeles,27
+205,25-34,Female,Mobile,Chicago,27
+206,45-54,Unknown,Desktop,Berlin,27
+207,35-44,Unknown,Desktop,Berlin,27
+208,25-34,Male,Mobile,Berlin,27
+209,18-24,Unknown,Tablet,Miami,27
+210,45-54,Unknown,Mobile,London,27
+211,35-44,Male,Desktop,New York,28
+212,35-44,Female,Tablet,New York,28
+213,18-24,Male,Mobile,Chicago,28
+214,55+,Male,Tablet,Berlin,28
+215,55+,Male,Desktop,Houston,28
+216,18-24,Male,Desktop,Los Angeles,28
+217,55+,Male,Mobile,Houston,28
+218,45-54,Male,Mobile,Berlin,29
+219,55+,Female,Desktop,Houston,29
+220,55+,Unknown,Tablet,Tokyo,29
+221,18-24,Unknown,Mobile,Berlin,29
+222,35-44,Unknown,Desktop,Tokyo,29
+223,55+,Female,Mobile,Sydney,29
+224,35-44,Unknown,Mobile,Berlin,29
+225,35-44,Male,Tablet,Tokyo,29
+226,55+,Unknown,Mobile,Chicago,30
+227,25-34,Female,Tablet,London,30
+228,18-24,Female,Mobile,New York,30
+229,35-44,Male,Tablet,Houston,30
+230,45-54,Male,Tablet,Chicago,30
+231,45-54,Female,Tablet,Delhi,30
+232,55+,Male,Mobile,Houston,30
+233,45-54,Female,Mobile,Chicago,31
+234,18-24,Unknown,Desktop,Los Angeles,31
+235,45-54,Unknown,Tablet,Miami,31
+236,55+,Female,Mobile,Tokyo,31
+237,45-54,Unknown,Desktop,Los Angeles,31
+238,55+,Unknown,Desktop,Miami,31
+239,18-24,Male,Desktop,Tokyo,31
+240,35-44,Unknown,Mobile,Miami,31
+241,45-54,Unknown,Mobile,Berlin,31
+242,25-34,Female,Desktop,Houston,32
+243,35-44,Unknown,Desktop,New York,32
+244,18-24,Male,Tablet,Houston,32
+245,25-34,Male,Desktop,Tokyo,32
+246,18-24,Male,Desktop,Berlin,32
+247,35-44,Unknown,Tablet,Tokyo,32
+248,55+,Unknown,Tablet,Delhi,32
+249,45-54,Male,Tablet,Berlin,33
+250,45-54,Male,Desktop,Berlin,33
+251,35-44,Male,Tablet,Sydney,33
+252,25-34,Unknown,Mobile,London,33
+253,35-44,Female,Desktop,Chicago,33
+254,55+,Unknown,Tablet,Los Angeles,33
+255,55+,Female,Tablet,Berlin,33
+256,35-44,Female,Desktop,London,33
+257,55+,Male,Tablet,Chicago,33
+258,35-44,Unknown,Mobile,New York,33
+259,55+,Male,Desktop,Berlin,34
+260,35-44,Female,Mobile,Houston,34
+261,25-34,Female,Tablet,Berlin,34
+262,25-34,Male,Tablet,New York,34
+263,45-54,Male,Tablet,London,34
+264,45-54,Male,Desktop,Chicago,34
+265,45-54,Male,Tablet,Los Angeles,34
+266,35-44,Male,Mobile,London,34
+267,18-24,Female,Tablet,Houston,34
+268,35-44,Female,Mobile,Los Angeles,35
+269,35-44,Unknown,Tablet,Berlin,35
+270,55+,Unknown,Mobile,Delhi,35
+271,25-34,Unknown,Desktop,Sydney,35
+272,55+,Unknown,Tablet,Los Angeles,35
+273,55+,Female,Mobile,Houston,36
+274,25-34,Male,Desktop,Los Angeles,36
+275,18-24,Unknown,Tablet,Chicago,36
+276,45-54,Male,Mobile,Los Angeles,36
+277,25-34,Male,Tablet,London,36
+278,45-54,Male,Mobile,Tokyo,36
+279,55+,Female,Tablet,Berlin,36
+280,55+,Unknown,Desktop,London,36
+281,35-44,Male,Tablet,Los Angeles,37
+282,18-24,Male,Desktop,Delhi,37
+283,18-24,Unknown,Mobile,Miami,37
+284,18-24,Female,Tablet,Tokyo,37
+285,45-54,Male,Mobile,Chicago,37
+286,45-54,Female,Tablet,Delhi,37
+287,45-54,Male,Tablet,Houston,38
+288,55+,Unknown,Mobile,Chicago,38
+289,55+,Unknown,Mobile,Chicago,38
+290,45-54,Female,Mobile,Berlin,38
+291,35-44,Female,Mobile,Delhi,38
+292,35-44,Male,Tablet,New York,39
+293,55+,Female,Desktop,Los Angeles,39
+294,25-34,Male,Desktop,Delhi,39
+295,45-54,Male,Mobile,Los Angeles,39
+296,55+,Unknown,Tablet,Sydney,39
+297,35-44,Unknown,Desktop,Delhi,39
+298,25-34,Male,Tablet,Tokyo,40
+299,25-34,Unknown,Mobile,Los Angeles,40
+300,55+,Unknown,Desktop,Tokyo,40
+301,35-44,Unknown,Tablet,Delhi,40
+302,18-24,Female,Tablet,Miami,40
+303,18-24,Female,Desktop,Chicago,41
+304,25-34,Unknown,Mobile,Miami,41
+305,45-54,Unknown,Desktop,Berlin,41
+306,25-34,Male,Mobile,London,41
+307,25-34,Male,Mobile,Los Angeles,41
+308,25-34,Male,Mobile,New York,42
+309,45-54,Female,Mobile,New York,42
+310,35-44,Unknown,Tablet,Chicago,42
+311,35-44,Unknown,Tablet,New York,42
+312,35-44,Unknown,Mobile,New York,42
+313,35-44,Female,Desktop,Miami,42
+314,18-24,Male,Mobile,London,43
+315,45-54,Female,Mobile,Sydney,43
+316,55+,Unknown,Mobile,Miami,43
+317,25-34,Male,Desktop,London,43
+318,25-34,Male,Mobile,Chicago,43
+319,18-24,Female,Mobile,Los Angeles,43
+320,25-34,Male,Tablet,Los Angeles,43
+321,25-34,Female,Desktop,Berlin,43
+322,35-44,Female,Desktop,Tokyo,44
+323,45-54,Female,Tablet,Tokyo,44
+324,25-34,Unknown,Mobile,Berlin,44
+325,35-44,Female,Mobile,Tokyo,44
+326,18-24,Unknown,Desktop,Houston,44
+327,25-34,Male,Mobile,Delhi,44
+328,35-44,Female,Mobile,Houston,44
+329,18-24,Female,Mobile,Los Angeles,45
+330,45-54,Female,Mobile,Chicago,45
+331,25-34,Male,Tablet,New York,45
+332,55+,Male,Desktop,Delhi,45
+333,18-24,Male,Mobile,Los Angeles,45
+334,18-24,Female,Tablet,Berlin,45
+335,45-54,Male,Tablet,New York,45
+336,45-54,Female,Tablet,Los Angeles,45
+337,35-44,Unknown,Mobile,Sydney,45
+338,25-34,Male,Mobile,New York,46
+339,25-34,Female,Desktop,Tokyo,46
+340,35-44,Male,Mobile,Berlin,46
+341,45-54,Male,Desktop,Los Angeles,46
+342,35-44,Unknown,Mobile,Miami,46
+343,25-34,Male,Mobile,Los Angeles,47
+344,18-24,Female,Mobile,Miami,47
+345,25-34,Female,Tablet,Sydney,47
+346,55+,Female,Tablet,Los Angeles,47
+347,25-34,Female,Desktop,Los Angeles,47
+348,35-44,Unknown,Tablet,Chicago,47
+349,55+,Unknown,Desktop,London,47
+350,35-44,Female,Mobile,Miami,47
+351,18-24,Male,Desktop,London,48
+352,35-44,Male,Tablet,Delhi,48
+353,35-44,Female,Tablet,Berlin,48
+354,35-44,Unknown,Mobile,Tokyo,48
+355,18-24,Male,Tablet,Berlin,48
+356,35-44,Unknown,Tablet,Miami,48
+357,35-44,Male,Desktop,Los Angeles,48
+358,55+,Male,Desktop,Sydney,48
+359,55+,Female,Tablet,Miami,48
+360,45-54,Female,Desktop,London,49
+361,35-44,Male,Tablet,Tokyo,49
+362,45-54,Male,Desktop,Chicago,49
+363,25-34,Male,Desktop,Sydney,49
+364,55+,Unknown,Mobile,Berlin,49
+365,25-34,Female,Desktop,Tokyo,49
+366,18-24,Unknown,Mobile,Tokyo,49
+367,35-44,Unknown,Mobile,Delhi,49
+368,45-54,Male,Desktop,Tokyo,49
+369,18-24,Unknown,Tablet,Los Angeles,49
+370,55+,Male,Mobile,Tokyo,50
+371,25-34,Female,Mobile,New York,50
+372,45-54,Unknown,Tablet,Delhi,50
+373,55+,Unknown,Mobile,Tokyo,50
+374,25-34,Female,Mobile,Miami,50
+375,35-44,Male,Mobile,Miami,50
+376,35-44,Male,Desktop,Delhi,50
+377,18-24,Unknown,Tablet,London,51
+378,25-34,Unknown,Mobile,Sydney,51
+379,25-34,Unknown,Tablet,New York,51
+380,55+,Female,Mobile,Houston,51
+381,35-44,Unknown,Mobile,New York,51
+382,35-44,Male,Desktop,Los Angeles,51
+383,35-44,Female,Tablet,Sydney,51
+384,55+,Male,Tablet,Miami,51
+385,55+,Male,Desktop,London,51
+386,45-54,Unknown,Mobile,Miami,51
+387,35-44,Unknown,Mobile,London,52
+388,55+,Male,Tablet,Miami,52
+389,35-44,Unknown,Mobile,Houston,52
+390,25-34,Male,Desktop,Los Angeles,52
+391,55+,Female,Desktop,New York,52
+392,25-34,Female,Tablet,London,52
+393,35-44,Female,Desktop,New York,52
+394,55+,Unknown,Tablet,Delhi,52
+395,45-54,Male,Mobile,Houston,52
+396,45-54,Female,Desktop,Sydney,53
+397,55+,Unknown,Tablet,New York,53
+398,25-34,Male,Tablet,Chicago,53
+399,35-44,Female,Tablet,Sydney,53
+400,18-24,Unknown,Tablet,New York,53
+401,55+,Male,Mobile,Chicago,53
+402,55+,Unknown,Mobile,Berlin,54
+403,45-54,Male,Tablet,Delhi,54
+404,25-34,Male,Desktop,Miami,54
+405,35-44,Male,Desktop,Miami,54
+406,45-54,Male,Desktop,Tokyo,54
+407,25-34,Unknown,Mobile,Houston,54
+408,18-24,Male,Tablet,Miami,54
+409,45-54,Unknown,Desktop,London,54
+410,55+,Unknown,Tablet,Los Angeles,54
+411,35-44,Female,Mobile,Sydney,55
+412,18-24,Unknown,Desktop,London,55
+413,18-24,Unknown,Mobile,Houston,55
+414,55+,Unknown,Mobile,Berlin,55
+415,25-34,Male,Desktop,London,55
+416,45-54,Unknown,Desktop,London,55
+417,35-44,Unknown,Mobile,Houston,55
+418,45-54,Male,Mobile,Houston,55
+419,25-34,Female,Desktop,Miami,55
+420,45-54,Male,Desktop,London,55
+421,25-34,Unknown,Mobile,Chicago,56
+422,55+,Male,Mobile,Los Angeles,56
+423,18-24,Male,Tablet,Delhi,56
+424,18-24,Female,Mobile,London,56
+425,35-44,Female,Tablet,Berlin,56
+426,25-34,Unknown,Tablet,Los Angeles,57
+427,55+,Unknown,Tablet,Tokyo,57
+428,25-34,Female,Desktop,Delhi,57
+429,45-54,Female,Mobile,London,57
+430,25-34,Unknown,Desktop,Houston,57
+431,25-34,Female,Tablet,Sydney,57
+432,18-24,Female,Tablet,Miami,57
+433,45-54,Male,Desktop,Delhi,57
+434,35-44,Unknown,Mobile,London,58
+435,18-24,Male,Mobile,Sydney,58
+436,18-24,Female,Mobile,Sydney,58
+437,55+,Unknown,Mobile,Tokyo,58
+438,25-34,Unknown,Tablet,Sydney,58
+439,25-34,Female,Desktop,Miami,58
+440,45-54,Unknown,Mobile,Tokyo,59
+441,45-54,Male,Desktop,Sydney,59
+442,25-34,Male,Mobile,Sydney,59
+443,55+,Female,Mobile,New York,59
+444,55+,Unknown,Desktop,Tokyo,59
+445,55+,Male,Desktop,Chicago,59
+446,55+,Female,Mobile,Los Angeles,59
+447,35-44,Unknown,Mobile,Delhi,59
+448,45-54,Female,Tablet,Tokyo,60
+449,18-24,Female,Tablet,Berlin,60
+450,45-54,Female,Mobile,Sydney,60
+451,55+,Male,Desktop,Houston,60
+452,35-44,Unknown,Desktop,Sydney,60
+453,25-34,Male,Desktop,Delhi,60
+454,45-54,Unknown,Tablet,Miami,60
+455,18-24,Unknown,Desktop,New York,60
+456,45-54,Unknown,Desktop,Berlin,60
+457,25-34,Unknown,Desktop,Chicago,61
+458,45-54,Male,Tablet,London,61
+459,25-34,Unknown,Tablet,Sydney,61
+460,25-34,Female,Desktop,Chicago,61
+461,45-54,Male,Desktop,Los Angeles,61
+462,45-54,Male,Desktop,London,62
+463,45-54,Unknown,Desktop,Delhi,62
+464,55+,Female,Tablet,Berlin,62
+465,55+,Male,Desktop,Delhi,62
+466,45-54,Female,Desktop,Tokyo,62
+467,18-24,Unknown,Desktop,Tokyo,62
+468,35-44,Male,Tablet,Tokyo,62
+469,18-24,Unknown,Desktop,New York,62
+470,25-34,Unknown,Tablet,Tokyo,62
+471,45-54,Unknown,Tablet,Sydney,63
+472,18-24,Female,Tablet,Chicago,63
+473,18-24,Female,Mobile,Chicago,63
+474,35-44,Unknown,Mobile,Tokyo,63
+475,25-34,Female,Mobile,Los Angeles,63
+476,35-44,Male,Tablet,Los Angeles,63
+477,35-44,Female,Desktop,Sydney,64
+478,18-24,Female,Tablet,Los Angeles,64
+479,45-54,Male,Tablet,Chicago,64
+480,18-24,Female,Mobile,Berlin,64
+481,55+,Female,Tablet,Delhi,64
+482,45-54,Female,Desktop,London,64
+483,55+,Unknown,Desktop,London,65
+484,55+,Female,Desktop,Sydney,65
+485,25-34,Female,Tablet,Delhi,65
+486,25-34,Male,Tablet,Miami,65
+487,55+,Unknown,Tablet,London,65
+488,45-54,Male,Mobile,Sydney,65
+489,35-44,Unknown,Tablet,London,65
+490,25-34,Female,Mobile,Los Angeles,65
+491,55+,Unknown,Tablet,New York,66
+492,45-54,Female,Mobile,Tokyo,66
+493,45-54,Male,Mobile,Miami,66
+494,35-44,Female,Mobile,Los Angeles,66
+495,18-24,Male,Tablet,Sydney,66
+496,45-54,Unknown,Desktop,Delhi,66
+497,25-34,Female,Desktop,Los Angeles,66
+498,45-54,Unknown,Desktop,Miami,67
+499,25-34,Female,Desktop,New York,67
+500,18-24,Female,Mobile,Chicago,67
+501,45-54,Male,Tablet,New York,67
+502,55+,Male,Desktop,Miami,67
+503,25-34,Female,Mobile,Los Angeles,67
+504,55+,Female,Mobile,Houston,67
+505,25-34,Male,Mobile,New York,67
+506,55+,Female,Mobile,Los Angeles,68
+507,35-44,Female,Desktop,Delhi,68
+508,35-44,Male,Mobile,Los Angeles,68
+509,55+,Female,Mobile,Berlin,68
+510,25-34,Female,Desktop,Delhi,68
+511,35-44,Male,Tablet,Berlin,68
+512,25-34,Female,Desktop,Delhi,68
+513,25-34,Unknown,Mobile,Miami,68
+514,45-54,Unknown,Tablet,Houston,68
+515,35-44,Male,Desktop,Sydney,68
+516,25-34,Male,Tablet,Tokyo,69
+517,55+,Female,Mobile,Chicago,69
+518,45-54,Unknown,Tablet,Houston,69
+519,45-54,Unknown,Desktop,Delhi,69
+520,25-34,Female,Tablet,Tokyo,69
+521,35-44,Unknown,Desktop,Tokyo,69
+522,25-34,Female,Desktop,Los Angeles,69
+523,55+,Female,Tablet,Miami,69
+524,18-24,Female,Desktop,Tokyo,69
+525,55+,Female,Mobile,Miami,69
+526,55+,Female,Tablet,New York,70
+527,45-54,Female,Tablet,Tokyo,70
+528,35-44,Male,Desktop,Miami,70
+529,35-44,Female,Mobile,Los Angeles,70
+530,25-34,Female,Tablet,New York,70
+531,45-54,Female,Mobile,Sydney,70
+532,25-34,Unknown,Tablet,New York,71
+533,45-54,Male,Tablet,Chicago,71
+534,18-24,Female,Desktop,Chicago,71
+535,35-44,Female,Tablet,Delhi,71
+536,35-44,Male,Tablet,Tokyo,71
+537,35-44,Unknown,Desktop,Chicago,71
+538,18-24,Unknown,Mobile,Miami,71
+539,25-34,Male,Desktop,London,71
+540,18-24,Unknown,Mobile,New York,72
+541,55+,Female,Desktop,London,72
+542,25-34,Unknown,Desktop,Berlin,72
+543,18-24,Female,Tablet,Berlin,72
+544,35-44,Female,Mobile,London,72
+545,55+,Female,Desktop,Houston,72
+546,18-24,Male,Tablet,New York,72
+547,18-24,Unknown,Tablet,Tokyo,73
+548,25-34,Male,Mobile,Los Angeles,73
+549,25-34,Female,Tablet,Delhi,73
+550,45-54,Female,Mobile,Houston,73
+551,18-24,Female,Tablet,Sydney,73
+552,45-54,Female,Mobile,Sydney,73
+553,55+,Male,Desktop,Chicago,73
+554,55+,Male,Mobile,Miami,73
+555,55+,Female,Mobile,Miami,73
+556,55+,Female,Desktop,Sydney,73
+557,45-54,Male,Desktop,Tokyo,74
+558,18-24,Unknown,Mobile,Sydney,74
+559,55+,Female,Desktop,Houston,74
+560,25-34,Female,Mobile,New York,74
+561,55+,Male,Mobile,Sydney,74
+562,45-54,Unknown,Desktop,Tokyo,74
+563,35-44,Female,Mobile,Tokyo,74
+564,18-24,Male,Tablet,New York,75
+565,55+,Male,Mobile,Houston,75
+566,55+,Unknown,Mobile,New York,75
+567,25-34,Female,Desktop,Miami,75
+568,25-34,Male,Mobile,London,75
+569,18-24,Unknown,Desktop,Los Angeles,75
+570,25-34,Male,Tablet,Chicago,75
+571,45-54,Unknown,Mobile,Miami,76
+572,18-24,Female,Mobile,Chicago,76
+573,35-44,Male,Desktop,Berlin,76
+574,18-24,Female,Desktop,Berlin,76
+575,18-24,Unknown,Desktop,Delhi,76
+576,45-54,Unknown,Desktop,London,77
+577,55+,Male,Mobile,New York,77
+578,25-34,Male,Desktop,Miami,77
+579,35-44,Male,Mobile,New York,77
+580,45-54,Male,Tablet,Berlin,77
+581,55+,Male,Desktop,Houston,77
+582,45-54,Unknown,Tablet,Berlin,77
+583,45-54,Unknown,Tablet,Houston,78
+584,35-44,Male,Desktop,Houston,78
+585,55+,Unknown,Desktop,Los Angeles,78
+586,25-34,Unknown,Desktop,Los Angeles,78
+587,18-24,Unknown,Desktop,Tokyo,78
+588,35-44,Female,Tablet,Delhi,78
+589,25-34,Unknown,Desktop,Berlin,78
+590,18-24,Unknown,Tablet,London,78
+591,18-24,Unknown,Tablet,New York,78
+592,45-54,Female,Desktop,New York,78
+593,55+,Female,Mobile,Houston,79
+594,45-54,Female,Desktop,Chicago,79
+595,25-34,Male,Tablet,Delhi,79
+596,45-54,Female,Desktop,Miami,79
+597,55+,Male,Tablet,Sydney,79
+598,55+,Female,Mobile,Berlin,79
+599,55+,Unknown,Tablet,London,79
+600,45-54,Unknown,Desktop,Los Angeles,79
+601,45-54,Male,Desktop,Los Angeles,80
+602,55+,Male,Mobile,New York,80
+603,18-24,Male,Desktop,New York,80
+604,55+,Female,Desktop,Los Angeles,80
+605,18-24,Unknown,Mobile,Houston,80
+606,25-34,Unknown,Tablet,Tokyo,80
+607,55+,Male,Tablet,Berlin,81
+608,25-34,Male,Desktop,Berlin,81
+609,45-54,Male,Tablet,New York,81
+610,35-44,Female,Desktop,Sydney,81
+611,18-24,Unknown,Mobile,Tokyo,81
+612,25-34,Unknown,Mobile,Los Angeles,82
+613,55+,Unknown,Mobile,Los Angeles,82
+614,25-34,Unknown,Desktop,Berlin,82
+615,18-24,Female,Mobile,Delhi,82
+616,25-34,Male,Desktop,New York,82
+617,18-24,Male,Tablet,New York,82
+618,25-34,Female,Desktop,Miami,82
+619,18-24,Female,Mobile,Los Angeles,83
+620,55+,Unknown,Desktop,Tokyo,83
+621,25-34,Female,Mobile,New York,83
+622,55+,Female,Tablet,Miami,83
+623,55+,Unknown,Desktop,Delhi,83
+624,55+,Female,Tablet,Los Angeles,83
+625,45-54,Female,Desktop,Chicago,83
+626,45-54,Unknown,Desktop,Berlin,83
+627,35-44,Unknown,Desktop,Tokyo,83
+628,25-34,Unknown,Tablet,Los Angeles,84
+629,45-54,Male,Mobile,Houston,84
+630,25-34,Female,Desktop,London,84
+631,55+,Male,Tablet,Miami,84
+632,25-34,Unknown,Tablet,New York,84
+633,18-24,Male,Desktop,New York,85
+634,45-54,Female,Desktop,Miami,85
+635,45-54,Male,Tablet,New York,85
+636,18-24,Female,Mobile,Berlin,85
+637,18-24,Female,Desktop,Los Angeles,85
+638,55+,Female,Mobile,Los Angeles,85
+639,55+,Female,Tablet,Houston,85
+640,18-24,Female,Tablet,London,85
+641,18-24,Female,Mobile,New York,85
+642,18-24,Female,Desktop,London,86
+643,55+,Unknown,Desktop,London,86
+644,18-24,Unknown,Desktop,Miami,86
+645,25-34,Male,Tablet,London,86
+646,25-34,Male,Tablet,Miami,86
+647,18-24,Male,Mobile,Delhi,86
+648,18-24,Female,Mobile,New York,86
+649,45-54,Female,Tablet,Berlin,86
+650,18-24,Male,Tablet,Los Angeles,87
+651,18-24,Female,Mobile,Miami,87
+652,35-44,Female,Desktop,Miami,87
+653,35-44,Male,Tablet,Miami,87
+654,45-54,Unknown,Desktop,Los Angeles,87
+655,25-34,Male,Tablet,Chicago,87
+656,18-24,Male,Mobile,Miami,88
+657,55+,Female,Mobile,Chicago,88
+658,18-24,Female,Tablet,Houston,88
+659,55+,Unknown,Tablet,Miami,88
+660,35-44,Male,Desktop,Houston,88
+661,25-34,Female,Tablet,Tokyo,88
+662,25-34,Female,Tablet,Los Angeles,89
+663,35-44,Unknown,Tablet,Tokyo,89
+664,55+,Female,Desktop,Tokyo,89
+665,25-34,Unknown,Desktop,London,89
+666,18-24,Male,Desktop,Berlin,89
+667,25-34,Unknown,Tablet,Sydney,90
+668,18-24,Unknown,Tablet,New York,90
+669,25-34,Female,Tablet,Delhi,90
+670,35-44,Unknown,Mobile,Tokyo,90
+671,45-54,Unknown,Desktop,New York,90
+672,25-34,Female,Desktop,Houston,90
+673,45-54,Male,Desktop,Miami,91
+674,25-34,Male,Mobile,Berlin,91
+675,35-44,Male,Desktop,New York,91
+676,18-24,Female,Tablet,Berlin,91
+677,25-34,Unknown,Tablet,London,91
+678,18-24,Unknown,Tablet,Delhi,91
+679,18-24,Female,Desktop,Miami,91
+680,18-24,Unknown,Tablet,Los Angeles,92
+681,45-54,Male,Desktop,Houston,92
+682,55+,Female,Mobile,Chicago,92
+683,45-54,Female,Desktop,Berlin,92
+684,55+,Male,Mobile,Miami,92
+685,55+,Unknown,Desktop,Tokyo,92
+686,25-34,Female,Tablet,Houston,92
+687,55+,Female,Mobile,Sydney,92
+688,35-44,Female,Desktop,New York,92
+689,18-24,Male,Desktop,Miami,92
+690,25-34,Female,Mobile,Los Angeles,93
+691,45-54,Male,Mobile,Delhi,93
+692,45-54,Male,Desktop,Delhi,93
+693,18-24,Female,Tablet,London,93
+694,25-34,Male,Desktop,Chicago,93
+695,55+,Female,Mobile,London,93
+696,55+,Male,Desktop,Sydney,93
+697,18-24,Female,Desktop,Chicago,93
+698,45-54,Unknown,Tablet,Tokyo,93
+699,45-54,Male,Tablet,Miami,94
+700,45-54,Unknown,Tablet,Chicago,94
+701,18-24,Unknown,Mobile,Sydney,94
+702,25-34,Male,Mobile,London,94
+703,45-54,Unknown,Tablet,Miami,94
+704,45-54,Unknown,Desktop,Houston,94
+705,45-54,Male,Mobile,Chicago,94
+706,45-54,Male,Desktop,Berlin,94
+707,25-34,Unknown,Desktop,Sydney,94
+708,55+,Unknown,Tablet,Tokyo,95
+709,35-44,Female,Mobile,London,95
+710,55+,Female,Tablet,Houston,95
+711,25-34,Male,Desktop,New York,95
+712,18-24,Unknown,Mobile,London,95
+713,55+,Unknown,Desktop,Los Angeles,95
+714,55+,Male,Tablet,Los Angeles,95
+715,18-24,Unknown,Tablet,Miami,95
+716,35-44,Male,Desktop,Los Angeles,96
+717,55+,Male,Desktop,Houston,96
+718,25-34,Female,Mobile,Miami,96
+719,55+,Unknown,Mobile,New York,96
+720,55+,Male,Tablet,London,96
+721,18-24,Unknown,Tablet,London,96
+722,35-44,Male,Tablet,Tokyo,96
+723,55+,Unknown,Mobile,Chicago,96
+724,55+,Unknown,Desktop,Los Angeles,96
+725,25-34,Male,Tablet,Tokyo,96
+726,45-54,Female,Desktop,Miami,97
+727,25-34,Unknown,Desktop,Berlin,97
+728,55+,Female,Tablet,Houston,97
+729,18-24,Female,Tablet,New York,97
+730,55+,Male,Desktop,Houston,97
+731,18-24,Female,Tablet,Los Angeles,98
+732,35-44,Female,Mobile,Miami,98
+733,25-34,Female,Mobile,Miami,98
+734,55+,Unknown,Tablet,London,98
+735,25-34,Male,Mobile,Miami,98
+736,18-24,Female,Mobile,London,98
+737,25-34,Male,Tablet,Tokyo,98
+738,18-24,Unknown,Mobile,Delhi,98
+739,35-44,Male,Mobile,Miami,98
+740,55+,Female,Mobile,Miami,98
+741,35-44,Female,Tablet,Houston,99
+742,45-54,Male,Tablet,Tokyo,99
+743,25-34,Female,Desktop,New York,99
+744,25-34,Female,Desktop,Sydney,99
+745,18-24,Female,Tablet,Sydney,99
+746,55+,Unknown,Mobile,Delhi,99
+747,55+,Unknown,Desktop,Chicago,99
+748,45-54,Unknown,Mobile,Berlin,99
+749,18-24,Unknown,Tablet,Berlin,99
+750,55+,Unknown,Desktop,Houston,100
+751,18-24,Male,Mobile,Berlin,100
+752,18-24,Female,Tablet,Delhi,100
+753,25-34,Unknown,Desktop,Chicago,100
+754,25-34,Female,Mobile,Los Angeles,100
+755,45-54,Unknown,Desktop,Delhi,100
+756,45-54,Unknown,Tablet,Tokyo,100
+757,55+,Unknown,Tablet,Tokyo,100
+758,18-24,Unknown,Tablet,Delhi,100
+759,45-54,Unknown,Mobile,New York,100

@@ -1,0 +1,12 @@
+pandas
+numpy
+SQLAlchemy
+streamlit
+scikit-learn
+xgboost
+openai
+plotly
+python-dotenv
+pytest
+markdown
+xhtml2pdf

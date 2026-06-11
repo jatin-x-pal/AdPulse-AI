@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+adpulse.db
+.ipynb_checkpoints/
+.pytest_cache/
